@@ -185,7 +185,7 @@ function Nav({ go }) {
   return (
     <nav>
       <div className="wrap nav-in">
-        <button className="brand" onClick={() => go("top")}>Megan<span>.</span>LaRue</button>
+        <button className="brand" onClick={() => go("top")}>Megan LaRue</button>
         <div className="nav-links">
           <a onClick={() => go("about")}>About</a>
           <a onClick={() => go("lead")}>Leadership</a>
@@ -298,7 +298,7 @@ function Home({ go, open }) {
         <div className="wrap">
           <div className="section-head">
             <span className="eyebrow">The foundation</span>
-            <h2 className="serif">Twelve years, one company, <em>a lot of shipped work.</em></h2>
+            <h2 className="serif">Twelve years, one company, <em>delivering value along the way.</em></h2>
           </div>
           <div className="record-grid">
             <div className="record"><div className="stat">~$1M</div><h3>Saved in an analytics migration</h3><p>Led the move from Oracle Siebel to Azure and Power BI — improving scalability and usability while cutting cost.</p><span className="yr">Lead Analytics Business Analyst · 2016–2018</span></div>
