@@ -142,7 +142,7 @@ const POSTS = [
   },
   {
     id:"oneonone", title:"The one-on-one is the whole job", read:"4 min read",
-    dek:"What actually changed when I went from individual contributor to manager — and why the calendar became my most important tool.",
+    dek:"What actually changed when I went from individual contributor to manager, and why the calendar became my most important tool.",
     body:[
       "When I moved from doing the work to leading the people who do it, the biggest change wasn't the work at all. It was the calendar.",
       "Suddenly my most important tool was the one-on-one. Not a status update. I can get status anywhere. A real conversation about what someone wants from their career, and whether the path they're on is actually taking them there.",
@@ -230,11 +230,11 @@ function Home({ go, open }) {
               <h2 className="serif">Direct, warm, and genuinely <em>in your corner.</em></h2>
             </div>
             <div className="about-body">
-              <p>I just made the move a lot of technical people talk about and few pull off well: from building the thing to building the team that builds the thing. Today I lead data engineers, data scientists, and analysts inside professional services — and I love it.</p>
+              <p>I just made the move a lot of technical people talk about and few pull off well: from building the thing to building the team that builds the thing. Today I lead data engineers, data scientists, and analysts inside professional services, and I love it.</p>
               <p>I captained a college basketball team before I ever managed a data one. Turns out the job is the same: know your people, put them where they're strongest, give them the confidence to take the shot, and get out of the way.</p>
-              <p>I stay close enough to the technical work to guide it honestly — I've written the user stories, run the migrations, shipped the platforms. But my real job now is people: their careers, their growth, and the outcomes we deliver together.</p>
+              <p>I stay close enough to the technical work to guide it honestly. I've written the user stories, run the migrations, shipped the platforms. But my real job now is people: their careers, their growth, and the outcomes we deliver together.</p>
               <div className="pullquote" style={{ marginTop: "26px" }}>
-                "Meet people where their skillset actually is — then bring them forward."
+                "Meet people where their skillset actually is, then bring them forward."
                 <cite>— how I think about coaching</cite>
               </div>
             </div>
