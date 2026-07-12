@@ -147,7 +147,7 @@ const POSTS = [
       "When I moved from doing the work to leading the people who do it, the biggest change wasn't the work at all. It was the calendar.",
       "Suddenly my most important tool was the one-on-one. Not a status update — I can get status anywhere. A real conversation about what someone wants from their career, and whether the path they're on is actually taking them there.",
       "Once I know what someone's after, my job gets clear: strategize with them on how to get it, and give them the visibility and the value that makes it real to the rest of the organization. Great work that no one sees doesn't advance anybody.",
-      "As an individual contributor, I measured a good week by what I shipped. As a manager, I measure it by whether the people around me got closer to where they're trying to go."
+      "As an individual contributor, I measured a good week by the business value I delivered. As a manager, I measure it by whether the people around me got closer to where they're trying to go."
     ]
   },
   {
@@ -157,7 +157,7 @@ const POSTS = [
       "People manage data teams like software teams, and then wonder why the delivery feels off. They're not the same animal.",
       "Software tends to start from features. Data starts from the business process. Before I care about a single pipeline, I want to understand what the customer is actually trying to do — which means understanding their process well enough to know what data matters and, just as importantly, what data doesn't.",
       "That reframes everything downstream. Requirements aren't a feature list; they're a translation of a business process into what the data needs to answer. And testing isn't just \u201cdoes the function run.\u201d It's system integration and business impact — does this hold up in the real workflow, for the real user, making a real decision?",
-      "Manage a data team like a software team and you'll ship things that technically work and practically miss. Start from the process, and you ship things people actually use."
+      "Manage a data team like a software team and you'll deliver things that technically work and practically miss. Start from the process, and you ship things people actually use."
     ]
   },
   {
