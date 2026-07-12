@@ -134,9 +134,9 @@ const POSTS = [
     dek:"The most useful thing I ever learned as a leader: you can't install confidence in someone. You can only find the true edge of their skillset and coach them one honest step past it.",
     body:[
       "The most useful thing I've learned as a leader took me a while to accept: you cannot hand someone confidence. You can't pep-talk it into them, and you can't skip them ahead to it. It has to be built.",
-      "So I stopped trying to install it. Instead I look for the real edge of a person's skillset — not where their title says they should be, not where I wish they were, but where they actually are — and I coach them one honest step past it. Then another. Confidence is just the residue of doing hard things and watching yourself succeed.",
+      "So I stopped trying to install it. Instead I look for the real edge of a person's skillset, not where their title says they should be, not where I wish they were, but where they actually are, and I coach them one honest step past it. Then another. Confidence is just the residue of doing hard things and watching yourself succeed.",
       "I learned this partly on a basketball court. You don't develop a player by dropping them into a position they can't hold and hoping. You find what they're good at, you get them reps there, and you widen the circle out from strength. A data team is no different.",
-      "In practice it means being specific. \u201cYou're great at this, and here's the next thing I want you to own.\u201d It means resisting the urge to do it for them when it would be faster. And it means being honest about the gap — people can feel a phony \u201cyou've got this,\u201d and it does the opposite of what you intended.",
+      "In practice it means being specific. \u201cYou're great at this, and here's the next thing I want you to own.\u201d It means resisting the urge to do it for them when it would be faster. And it means being honest about the gap. People can feel a phony \u201cyou've got this,\u201d and it does the opposite of what you intended.",
       "The payoff is a team that keeps leveling up on its own, because everyone knows you see them accurately and you're bringing them forward instead of leaving them behind. That's the whole job, really."
     ]
   },
@@ -145,7 +145,7 @@ const POSTS = [
     dek:"What actually changed when I went from individual contributor to manager — and why the calendar became my most important tool.",
     body:[
       "When I moved from doing the work to leading the people who do it, the biggest change wasn't the work at all. It was the calendar.",
-      "Suddenly my most important tool was the one-on-one. Not a status update — I can get status anywhere. A real conversation about what someone wants from their career, and whether the path they're on is actually taking them there.",
+      "Suddenly my most important tool was the one-on-one. Not a status update. I can get status anywhere. A real conversation about what someone wants from their career, and whether the path they're on is actually taking them there.",
       "Once I know what someone's after, my job gets clear: strategize with them on how to get it, and give them the visibility and the value that makes it real to the rest of the organization. Great work that no one sees doesn't advance anybody.",
       "As an individual contributor, I measured a good week by the business value I delivered. As a manager, I measure it by whether the people around me got closer to where they're trying to go."
     ]
@@ -155,8 +155,8 @@ const POSTS = [
     dek:"Managing data work means starting from the business process, not the backlog. A short field guide to the difference.",
     body:[
       "People manage data teams like software teams, and then wonder why the delivery feels off. They're not the same animal.",
-      "Software tends to start from features. Data starts from the business process. Before I care about a single pipeline, I want to understand what the customer is actually trying to do — which means understanding their process well enough to know what data matters and, just as importantly, what data doesn't.",
-      "That reframes everything downstream. Requirements aren't a feature list; they're a translation of a business process into what the data needs to answer. And testing isn't just \u201cdoes the function run.\u201d It's system integration and business impact — does this hold up in the real workflow, for the real user, making a real decision?",
+      "Software tends to start from features. Data starts from the business process. Before I care about a single pipeline, I want to understand what the customer is actually trying to do, which means understanding their process well enough to know what data matters and, just as importantly, what data doesn't.",
+      "That reframes everything downstream. Requirements aren't a feature list; they're a translation of a business process into what the data needs to answer. And testing isn't just \u201cdoes the function run.\u201d It's system integration and business impact: does this hold up in the real workflow, for the real user, making a real decision?",
       "Manage a data team like a software team and you'll deliver things that technically work and practically miss. Start from the process, and you ship things people actually use."
     ]
   },
@@ -164,9 +164,9 @@ const POSTS = [
     id:"equal", title:"Equal footing", read:"3 min read",
     dek:"The one thing I'd change about this industry: how differently people are still treated by gender and by ethnicity. Equality across the board isn't a nice-to-have.",
     body:[
-      "If I could change one thing about this industry, it wouldn't be a tool or a framework. It would be how differently people still get treated — by gender, and by ethnicity.",
+      "If I could change one thing about this industry, it wouldn't be a tool or a framework. It would be how differently people still get treated, by gender and by ethnicity.",
       "I've felt it, and I've watched it happen to people I've worked with. Same idea, different reception. Same result, different credit. It's rarely loud. It's usually just quieter doors and slower benefit of the doubt.",
-      "Equality across the board isn't a nice-to-have I'd tack on if there were time. To me it's the actual point of leadership: making the room fair, so the best ideas win regardless of who they came from. I try to run my corner of it that way — and I expect the people I work with to hold me to it."
+      "Equality across the board isn't a nice-to-have I'd tack on if there were time. To me it's the actual point of leadership: making the room fair, so the best ideas win regardless of who they came from. I try to run my corner of it that way, and I expect the people I work with to hold me to it."
     ]
   },
   {
@@ -174,7 +174,7 @@ const POSTS = [
     dek:"Sometimes the most productive thing a manager can say is: take a break, come back refreshed, and let's redirect your thinking.",
     body:[
       "Here's advice that sounds too simple to be leadership: when someone's burned out, tell them to take a break.",
-      "I mean it literally. Step away, come back refreshed. Burnout usually isn't a motivation problem you can talk someone out of — it's a sign the thoughts have gotten stuck in a loop. Rest is how you redirect them.",
+      "I mean it literally. Step away, come back refreshed. Burnout usually isn't a motivation problem you can talk someone out of. It's a sign the thoughts have gotten stuck in a loop. Rest is how you redirect them.",
       "The mistake managers make is treating rest like a reward you earn after the crunch. It's not. It's a tool that produces better work, cleaner thinking, and people who are still around in a year. I'd rather someone take three days now than three months at half-speed followed by a resignation.",
       "So no heroics. Take the break. The work will be there, and you'll be better at it."
     ]
@@ -207,7 +207,7 @@ function Home({ go, open }) {
         <div className="wrap hero-grid">
           <div className="hero-copy">
             <h1>I used to build the systems.<br />Now I build the <em>people</em> who build them.</h1>
-            <p className="lede">Data &amp; AI leader in professional services. Twelve years turning messy business problems into products people actually use — and now, growing the engineers, scientists, and analysts who do the work.</p>
+            <p className="lede">Data &amp; AI leader in professional services. Twelve years turning messy business problems into products people actually use, and now growing the engineers, scientists, and analysts who do the work.</p>
             <div className="foundation"><b>Lexmark</b> · 12+ yrs &nbsp;//&nbsp; Data · AI · IoT &nbsp;//&nbsp; Lexington, KY</div>
             <div className="cta-row">
               <a className="btn btn-primary" onClick={() => go("journal")}>Read the journal</a>
@@ -249,10 +249,10 @@ function Home({ go, open }) {
             <h2 className="serif">Four things I believe about <em>growing people.</em></h2>
           </div>
           <div className="tenets">
-            <div className="tenet"><span className="num">01</span><h3>Meet people where they are</h3><p>Confidence isn't something you hand someone. You find where their skills genuinely are, and you build them forward from there — no pretending, no leaving anyone behind.</p></div>
+            <div className="tenet"><span className="num">01</span><h3>Meet people where they are</h3><p>Confidence isn't something you hand someone. You find where their skills genuinely are, and you build them forward from there. No pretending, no leaving anyone behind.</p></div>
             <div className="tenet"><span className="num">02</span><h3>The one-on-one is the job</h3><p>The real work of managing is knowing what someone wants from their career, then giving them the strategy and visibility to actually get there.</p></div>
-            <div className="tenet"><span className="num">03</span><h3>Coach the mindset, not just the skill</h3><p>Skills, people can build on their own. What I teach is how to think — how to stay proactive, how to be innovative, how to navigate the organization around them.</p></div>
-            <div className="tenet"><span className="num">04</span><h3>Data teams aren't software teams</h3><p>You don't start with features. You start with the business process — what data matters, what doesn't — and you test for real-world impact, not just whether the function runs.</p></div>
+            <div className="tenet"><span className="num">03</span><h3>Coach the mindset, not just the skill</h3><p>Skills, people can build on their own. What I teach is how to think: how to stay proactive, how to be innovative, how to navigate the organization around them.</p></div>
+            <div className="tenet"><span className="num">04</span><h3>Data teams aren't software teams</h3><p>You don't start with features. You start with the business process, what data matters, what doesn't, and you test for real-world impact, not just whether the function runs.</p></div>
           </div>
         </div>
       </section>
@@ -301,10 +301,10 @@ function Home({ go, open }) {
             <h2 className="serif">Twelve years, one company, <em>delivering value along the way.</em></h2>
           </div>
           <div className="record-grid">
-            <div className="record"><div className="stat">~$1M</div><h3>Saved in an analytics migration</h3><p>Led the move from Oracle Siebel to Azure and Power BI — improving scalability and usability while cutting cost.</p><span className="yr">Lead Analytics Business Analyst · 2016–2018</span></div>
-            <div className="record"><div className="stat">D365</div><h3>Enterprise platform delivery</h3><p>Designed and delivered solutions on Dynamics 365 and Azure — with SAP integrations across service, order management, field service, and sales.</p><span className="yr">Lead Business Analyst · 2018–2021</span></div>
-            <div className="record"><div className="stat serif" style={{ fontSize: "26px" }}>Voice of the customer</div><h3>Product vision &amp; roadmap</h3><p>Owned the customer-facing roadmap for enterprise service, IoT, and analytics — turning customer discovery into a backlog teams could build.</p><span className="yr">Senior role · 2022–present</span></div>
-            <div className="record"><div className="stat serif" style={{ fontSize: "26px" }}>From scratch</div><h3>Built the delivery process</h3><p>Implemented Jira and the practice around it — accurate user stories, a real backlog, and coordination that holds up across concurrent projects.</p><span className="yr">Across roles</span></div>
+            <div className="record"><div className="stat">~$1M</div><h3>Saved in an analytics migration</h3><p>Led the move from Oracle Siebel to Azure and Power BI, improving scalability and usability while cutting cost.</p><span className="yr">Lead Analytics Business Analyst · 2016–2018</span></div>
+            <div className="record"><div className="stat">D365</div><h3>Enterprise platform delivery</h3><p>Designed and delivered solutions on Dynamics 365 and Azure, with SAP integrations across service, order management, field service, and sales.</p><span className="yr">Lead Business Analyst · 2018–2021</span></div>
+            <div className="record"><div className="stat serif" style={{ fontSize: "26px" }}>Voice of the customer</div><h3>Product vision &amp; roadmap</h3><p>Owned the customer-facing roadmap for enterprise service, IoT, and analytics, turning customer discovery into a backlog teams could build.</p><span className="yr">Senior role · 2022–present</span></div>
+            <div className="record"><div className="stat serif" style={{ fontSize: "26px" }}>From scratch</div><h3>Built the delivery process</h3><p>Implemented Jira and the practice around it: accurate user stories, a real backlog, and coordination that holds up across concurrent projects.</p><span className="yr">Across roles</span></div>
           </div>
           <div className="creds">
             <b>M.S. Computer Science</b> — Kentucky State <span className="sep">//</span> <b>SAFe 6</b> Product Owner / Product Manager <span className="sep">//</span> <b>NC State AI Academy</b> — Data Scientist &amp; AI Associate
