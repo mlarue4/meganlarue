@@ -208,7 +208,7 @@ function Home({ go, open }) {
           <div className="hero-copy">
             <h1>I used to build the systems.<br />Now I build the <em>people</em> who build them.</h1>
             <p className="lede">Data &amp; AI leader in professional services. Twelve years turning messy business problems into products people actually use, and now growing the engineers, scientists, and analysts who do the work.</p>
-            <div className="foundation"><b>Lexmark</b> · 12+ yrs &nbsp;//&nbsp; Data · AI · IoT &nbsp;//&nbsp; Lexington, KY</div>
+            <div className="foundation"><b>Xerox | Lexmark</b> · 12+ yrs &nbsp;//&nbsp; Data · AI · IoT &nbsp;//&nbsp; Lexington, KY</div>
             <div className="cta-row">
               <a className="btn btn-primary" onClick={() => go("journal")}>Read the journal</a>
               <a className="btn btn-ghost" onClick={() => go("contact")}>Let's talk</a>
